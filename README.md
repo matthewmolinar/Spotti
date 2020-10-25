@@ -26,7 +26,7 @@ spotti is a simple algorithm that is able to:
 
 Unlike most Computer-Vision algorithms at large-retailing scores, spotti is not interested in detecting theft-related activities. Instead, it relies solely on human presence to reinforce honest customer practices, sanitation standards, and customer assistance without using any of AI's possible biases that may lead to discrimination and thus, have drastic consequences to the company) (Matsakis, 2020, Siebenaler, 2019).
 
-![video_6_edited.gif](https://github.com/molinar1999/Spotti/blob/master/video_6_edited.gif?raw=true)
+![video_6_edited.gif](https://github.com/molinar1999/Spotti/blob/master/gifs/video_6_edited.gif?raw=true)
 
 > The top-right of the video has a counter of employees (purple) and customers (green)
 
@@ -40,7 +40,7 @@ Thus, what our solution proposes is essentially a bridge of communication betwee
 
 For this project, we used a pre-trained model for both, YOLOv5 and Deep Sort to detect and track unique individuals in a field of vision.
 
-![image-20201025074700972](C:\Users\erick\AppData\Roaming\Typora\typora-user-images\image-20201025074700972.png)
+![architect.png](https://github.com/molinar1999/Spotti/blob/master/imgs/architect.png?raw=true)
 
 ## Challenges we ran into
 
