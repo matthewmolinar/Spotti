@@ -31,13 +31,14 @@ The above copyright notice and this permission notice shall be included in all c
   
 </head>
 
-<!-- Navbar -->
 <body class="landing-page sidebar-collapse">
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
     <div class="container">
       <div class="navbar-translate">
         <a class="navbar-brand" href="https://gentle-pond-0b5d50810.azurestaticapps.net">
-          <b>Spotti</b> </a>
+          <span class="material-icons">
+            graphic_eq
+            </span> <b>Spotti</b> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>
           <span class="navbar-toggler-icon"></span>
@@ -46,6 +47,23 @@ The above copyright notice and this permission notice shall be included in all c
         </button>
       </div>
       <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+           <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">menu</i> 
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a href="#" class="dropdown-item">
+                <i class="material-icons">graphic_eq</i> Spotti
+              </a>
+              <a href="./videos.html" class="dropdown-item">
+                <i class="material-icons">all_out</i> Models
+              </a>
+            </div>
+          </li>
+          
+          
+        </ul> 
       </div>
     </div>
   </nav>
@@ -60,7 +78,6 @@ The above copyright notice and this permission notice shall be included in all c
           </h4>
           
           <br>
-          <!-- Link to all the videos. -->
           <a href="./videos.html" target="_blank" class="btn btn-danger btn-raised btn-lg">
             <i class="fa fa-play"></i>  See it in action!
           </a>
